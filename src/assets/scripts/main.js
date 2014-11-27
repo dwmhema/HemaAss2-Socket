@@ -56,7 +56,7 @@ jQuery(function($) {
     socket.on('update', function(data){
     
       $('.message')
-        //.append($('<p>').text(data.mess + ' :' + data.name+ ' ,' + data.location));
+        
       .append($('<p>').text(data.mess + ':' + data.name+ ' ,' + data.location));
     
 
