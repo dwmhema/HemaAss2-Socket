@@ -28,7 +28,7 @@ io.on('connection', function(socket){
 
   	}
     // else {
-  	// 	callback(true);
+  	
   		socket.name = data;
   		usernames.push(socket.name);
   		io.emit('usernames', usernames);
