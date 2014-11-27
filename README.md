@@ -1,7 +1,7 @@
 
 Hi Darcy:
 
-Download the Hema_Assignment2 from the github or the attachment
+Download the HemaAss2-Socket.zip from the github or the attachment
 then you have to run the gulp on the command line;
 then you have to run the node sever.js also on the command line;
 browse the 127.0.0.1:3000 on your favourite web browse;
