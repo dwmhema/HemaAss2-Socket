@@ -1,0 +1,112 @@
+.boxes {
+  width: 100%;
+  float: left;
+  display: block;
+}
+header {
+  width: 100%;
+  float: left;
+  display: block;
+  height: 200px;
+  background-color: #112233;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: Open Sans;
+  color: #cecece;
+}
+header h1 {
+  font-size: 34px;
+  margin: 60px 20px;
+}
+.container {
+  width: 100%;
+  float: left;
+  display: block;
+  text-align: center;
+  background-color: #621621;
+  font-family: Impact;
+}
+.container h1 {
+  font-size: 30px;
+  color: #d5c7c7;
+}
+.container .message {
+  width: 90%;
+  margin: 5%;
+  height: auto;
+  font-size: 20px;
+  color: #000;
+  background-color: #cecece;
+  display: none;
+}
+.container .dataInput {
+  width: 90%;
+  margin: 5%;
+  height: auto;
+  font-size: 20px;
+  color: #000;
+  background-color: #999;
+}
+.container .dataInput .login {
+  width: 80%;
+  margin: 5%;
+  padding: 5%;
+}
+.container .dataInput .login .sec1 {
+  width: 98%;
+  margin: 1%;
+}
+.container .dataInput .login .sec1 #butUser {
+  width: 150px;
+  height: 40px;
+  background-color: #003399;
+  color: #cecece;
+  margin: 0;
+  font-size: 20px;
+}
+.container .dataInput .login .sec1 #name,
+.container .dataInput .login .sec1 #location {
+  width: 300px;
+  height: 40px;
+  background-color: #eee;
+  margin: 0;
+  font-size: 20px;
+}
+.container .dataInput .texting {
+  width: 80%;
+  margin: 5%;
+  padding: 5%;
+  display: none;
+}
+.container .dataInput .texting .sec2 {
+  width: 98%;
+  margin: 1%;
+}
+.container .dataInput .texting .sec2 #butMess {
+  width: 150px;
+  height: 40px;
+  background-color: #003399;
+  color: #cecece;
+  margin: 0;
+  font-size: 20px;
+}
+.container .dataInput .texting .sec2 #mess {
+  width: 300px;
+  height: 200px;
+  background-color: #eee;
+  margin: 0;
+  font-size: 20px;
+}
+footer {
+  background-color: #112233;
+  text-align: center;
+  width: 100%;
+  float: left;
+  display: block;
+  height: 120px;
+  color: #d0cccc;
+}
+footer h2 {
+  font-size: 24px;
+  margin-top: 45px;
+}

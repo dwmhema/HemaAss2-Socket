@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Assignment2-Hemachandra</title>
+    <meta name="description" content="Hhemachandra">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0, minimal-ui">
+    <link rel="stylesheet" href="assets/styles/main.css" type="text/css">
+  </head>
+  <body>
+    <header>
+      <h1>Real Time Web Application</h1>
+    </header>
+    <div class="container">
+      <h1>Chat Room</h1>
+      <div class="message"></div>
+      <div class="dataInput">
+        <div class="login">      
+          <h3>Provide your login Information!</h3>
+          <p id="userError"></p>
+          <div class="sec1">
+            <label for="name">Username:</label>
+            <input id="name" type="text">
+          </div>
+          <div class="sec1">
+            <label for="name">Location:</label>
+            <input id="location" type="text">
+          </div>
+          <div class="sec1">   
+            <button id="butUser" class="be">Create</button>
+          </div>
+        </div>
+        <div class="texting">
+          <h3>Type your text message here!
+            <div class="sec2">
+              <label for="name">Message:</label>
+              <textarea id="mess" type="text">   </textarea>
+            </div>
+            <div class="sec2">     
+              <button id="butMess" class="be">Send </button>
+            </div>
+          </h3>
+        </div>
+      </div>
+    </div>
+    <Footer> 
+      <h2>Designed and Developed by Hemachandra Dewmuni</h2>
+    </Footer>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.socket.io/socket.io-1.1.0.js"></script>
+    <script type="text/javascript" src="assets/scripts/main.js"></script>
+  </body>
+</html>

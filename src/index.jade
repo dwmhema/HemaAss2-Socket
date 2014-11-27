@@ -1,0 +1,51 @@
+doctype html
+html
+
+  head
+
+    meta(charset="utf-8")
+
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+
+    title Assignment2-Hemachandra
+
+    meta(name="description", content="Hhemachandra")
+
+    meta(name="viewport", content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0, minimal-ui")
+
+    link(rel="stylesheet", href="assets/styles/main.css", type="text/css")
+
+  body
+
+    header
+      h1 Real Time Web Application
+    div.container
+      h1 Chat Room
+      div.message
+      div.dataInput
+        div.login       
+            h3 Provide your login Information!
+            p#userError
+            div.sec1
+              label(for='name') Username:
+              input#name(type='text')
+            div.sec1
+              label(for='name') Location:
+              input#location(type='text')    
+            div.sec1    
+              button#butUser.be Create
+        div.texting
+          h3 Type your text message here!
+        
+            div.sec2
+              label(for='name') Message:
+              textarea#mess(type='text')    
+             div.sec2      
+              button#butMess.be Send 
+    Footer 
+      h2 Designed and Developed by Hemachandra Dewmuni
+    script(type="text/javascript", src="https://code.jquery.com/jquery-2.1.1.min.js")
+
+    script(type="text/javascript", src="https://cdn.socket.io/socket.io-1.1.0.js")
+
+    script(type="text/javascript", src="assets/scripts/main.js")
